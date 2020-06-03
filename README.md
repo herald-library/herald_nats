@@ -4,6 +4,12 @@
 
 ## Installation
 
+Docker:
+
+```sh
+$ docker run -p 4222:4222 -ti nats:latest
+```
+
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
 by adding `herald_nats` to your list of dependencies in `mix.exs`:
 
